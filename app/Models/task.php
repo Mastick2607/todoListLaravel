@@ -11,7 +11,7 @@ class task extends Model
 
 
     protected $fillable =[
-
+// kjkj
      'task'
 
     ];

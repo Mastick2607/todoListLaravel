@@ -18,6 +18,7 @@ use App\Http\Controllers\TaskController;
 // });
 
 Route::get('/a',[TaskController::class,'index']);
+//nssdjshdjdshjs
 Route::post ('/a', [TaskController::class,'store'])->name('task.store');
 Route::delete ('/a{id}', [TaskController::class,'destroy'])->name('task.destroy');
 
